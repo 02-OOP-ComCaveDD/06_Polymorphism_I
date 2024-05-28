@@ -11,6 +11,11 @@ public class App {
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
+
+        //-- Das sollte eigentlich nicht gehen!--//
+        HoneyBee bee = new HoneyBee(); // SuperKlasse!
+        pollObj(bee);
+
         
     }
 
